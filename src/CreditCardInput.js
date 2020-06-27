@@ -149,19 +149,19 @@ export default class CreditCardInput extends Component {
 
     return (
       <View style={s.container}>
-        <CreditCard focused={focused}
-          brand={type}
-          scale={cardScale}
-          fontFamily={cardFontFamily}
-          imageFront={cardImageFront}
-          imageBack={cardImageBack}
-          customIcons={cardBrandIcons}
-          name={requiresName ? name : " "}
-          number={number}
-          expiry={expiry}
-          cvc={cvc} />
+//         <CreditCard focused={focused}
+//           brand={type}
+//           scale={cardScale}
+//           fontFamily={cardFontFamily}
+//           imageFront={cardImageFront}
+//           imageBack={cardImageBack}
+//           customIcons={cardBrandIcons}
+//           name={requiresName ? name : " "}
+//           number={number}
+//           expiry={expiry}
+//           cvc={cvc} />
         <ScrollView ref="Form"
-          horizontal
+//           horizontal
           keyboardShouldPersistTaps="always"
           scrollEnabled={allowScroll}
           showsHorizontalScrollIndicator={false}
